@@ -16,7 +16,7 @@
     <description>spring_boot_app_job_solutions_xpr_canada</description>
     <properties>
         <java.version>1.8</java.version>
-        <snakeyaml.version>1.31</snakeyaml.version>
+        <snakeyaml.version>1.30</snakeyaml.version><!--should be on 1.33 these days -->
     </properties>
     <dependencies>
         <dependency>
