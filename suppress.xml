@@ -84,4 +84,18 @@
    <packageUrl regex="true">^pkg:maven/org\.springframework/spring\-web@.*$</packageUrl>
    <cve>CVE-2016-1000027</cve>
 </suppress>
+   <suppress>
+   <notes><![CDATA[
+   file name: snakeyaml-1.33.jar
+   ]]></notes>
+   <packageUrl regex="true">^pkg:maven/org\.yaml/snakeyaml@.*$</packageUrl>
+   <vulnerabilityName>CVE-2022-1471</vulnerabilityName>
+</suppress>
+   <suppress>
+   <notes><![CDATA[
+   file name: spring_boot_app_job_solutions_xpr_canada-0.0.1-SNAPSHOT.war: snakeyaml-1.33.jar
+   ]]></notes>
+   <packageUrl regex="true">^pkg:maven/org\.yaml/snakeyaml@.*$</packageUrl>
+   <vulnerabilityName>CVE-2022-1471</vulnerabilityName>
+</suppress>
 </suppressions>
