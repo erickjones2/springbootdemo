@@ -8,6 +8,7 @@ class SpringBootAppJobSolutionsXprCanadaApplicationTests {
 
     @Test
     void contextLoads() {
+        Integer.parseInt("3r");
     }
 
 }
