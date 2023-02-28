@@ -63,4 +63,25 @@
    <packageUrl regex="true">^pkg:maven/org\.springframework/spring\-web@.*$</packageUrl>
    <cpe>cpe:/a:web_project:web</cpe>
 </suppress>
+   <suppress>
+   <notes><![CDATA[
+   file name: spring_boot_app_job_solutions_xpr_canada-0.0.1-SNAPSHOT.war: spring-web-5.3.25.jar
+   ]]></notes>
+   <packageUrl regex="true">^pkg:maven/org\.springframework/spring\-web@.*$</packageUrl>
+   <cve>CVE-2016-1000027</cve>
+</suppress>
+   <suppress>
+   <notes><![CDATA[
+   file name: spring_boot_app_job_solutions_xpr_canada-0.0.1-SNAPSHOT.war: spring-web-5.3.20.jar
+   ]]></notes>
+   <packageUrl regex="true">^pkg:maven/org\.springframework/spring\-web@.*$</packageUrl>
+   <cpe>cpe:/a:web_project:web</cpe>
+</suppress>
+   <suppress>
+   <notes><![CDATA[
+   file name: spring-web-5.3.25.jar
+   ]]></notes>
+   <packageUrl regex="true">^pkg:maven/org\.springframework/spring\-web@.*$</packageUrl>
+   <cve>CVE-2016-1000027</cve>
+</suppress>
 </suppressions>
