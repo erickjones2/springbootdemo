@@ -9,7 +9,8 @@ class SpringBootAppJobSolutionsXprCanadaApplicationTests {
 
     @Test
     void contextLoads() {
-        //assertEquals(true, false);
+        // comment to PASS, uncomment to FAIL
+        assertEquals(true, false);
     }
 
 }
