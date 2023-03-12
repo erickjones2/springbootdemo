@@ -17,7 +17,7 @@
     <properties>
         <java.version>1.8</java.version>
         <snakeyaml.version>1.30</snakeyaml.version>
-        <!-- version 1.30 has some vulnerabilties which 1.33 resoves -->
+        <!-- version 1.33 has some vulnerabilties which 1.33 resoves -->
     </properties>
     <dependencies>
         <dependency>
